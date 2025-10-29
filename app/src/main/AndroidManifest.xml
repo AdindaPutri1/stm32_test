@@ -7,26 +7,14 @@
     <!-- PERMISSIONS UNTUK ANDROID 12+ -->
     <!-- ================================ -->
 
-    <!-- Bluetooth Permissions untuk Android 12+ (API 31+) -->
-    <uses-permission android:name="android.permission.BLUETOOTH"
-        android:maxSdkVersion="30" />
-    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"
-        android:maxSdkVersion="30" />
-
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <!-- Kalau targetSdk >= 31 (Android 12), WAJIB tambahin ini -->
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADVERTISE" />
 
 
-    <!-- WAJIB untuk Android 12+ -->
-    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
-    <uses-permission android:name="android.permission.BLUETOOTH_SCAN"
-        android:usesPermissionFlags="neverForLocation"
-        tools:targetApi="s" />
-
-    <!-- Location permission untuk Android 10-11 (jika ada device yang masih API 29-30) -->
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"
-        android:maxSdkVersion="30" />
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"
-        android:maxSdkVersion="30" />
 
     <!-- Deklarasi fitur Bluetooth -->
     <uses-feature

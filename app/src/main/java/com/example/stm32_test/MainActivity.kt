@@ -106,12 +106,8 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun setupBluetooth() {
-        bluetoothAdapter = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.S) {
-            val bluetoothManager = getSystemService(Context.BLUETOOTH_SERVICE) as BluetoothManager
-            bluetoothManager.adapter
-        } else {
-            BluetoothAdapter.getDefaultAdapter()
-        }
+        val bluetoothManager = getSystemService(Context.BLUETOOTH_SERVICE) as BluetoothManager
+        bluetoothAdapter = bluetoothManager.adapter
 
         if (bluetoothAdapter == null) {
             showError("Perangkat tidak mendukung Bluetooth")
@@ -119,7 +115,7 @@ class MainActivity : AppCompatActivity() {
             return
         }
 
-        Log.d(TAG, "✅ BluetoothAdapter initialized")
+        Log.d(TAG, "✅ BluetoothAdapter initialized (API 31+)")
         checkAndRequestPermissions()
     }
 

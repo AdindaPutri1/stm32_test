@@ -9,8 +9,8 @@ android {
 
     defaultConfig {
         applicationId = "com.example.stm32_test"
-        minSdk = 31
-        targetSdk = 34
+        minSdk = 29
+        targetSdk = 33
         versionCode = 1
         versionName = "1.0"
 
@@ -54,4 +54,8 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+
+    implementation("androidx.core:core-splashscreen:1.0.1")
+    implementation("androidx.annotation:annotation:1.7.1")
+
 }
