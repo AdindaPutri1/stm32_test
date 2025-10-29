@@ -1,0 +1,56 @@
+<resources>
+    <!-- App Name -->
+    <string name="app_name">STM32 Terminal</string>
+
+    <!-- Status Messages -->
+    <string name="status_disconnected">⚪ Disconnected</string>
+    <string name="status_connected">🟢 Connected</string>
+    <string name="status_connecting">🔄 Connecting…</string>
+
+    <!-- Button Labels -->
+    <string name="connect_to_hc_05">🔗 Connect to HC-05</string>
+    <string name="disconnect">🔌 Disconnect</string>
+    <string name="led_on">💡 LED ON</string>
+    <string name="led_off">🔴 LED OFF</string>
+    <string name="send">📤 SEND</string>
+    <string name="clear">🗑️ Clear</string>
+
+    <!-- UI Labels -->
+    <string name="terminal_title">🔷 STM32 Bluetooth Terminal</string>
+    <string name="serial_monitor">📟 Serial Monitor</string>
+    <string name="command_hint">Enter command…</string>
+
+    <!-- Toast Messages -->
+    <string name="toast_connected">✅ Connected to HC-05!</string>
+    <string name="toast_disconnected">🔴 Disconnected from STM32</string>
+    <string name="toast_connection_lost">❌ Koneksi terputus</string>
+    <string name="toast_sent">📤 Sent: %s</string>
+    <string name="toast_send_failed">❌ Gagal kirim data</string>
+    <string name="toast_command_empty">⚠️ Command kosong!</string>
+    <string name="toast_permission_granted">✅ Permission granted</string>
+    <string name="toast_not_connected">⚠️ Belum terkoneksi!</string>
+
+    <!-- Error Messages -->
+    <string name="error_no_bluetooth">❌ Device tidak support Bluetooth</string>
+    <string name="error_bluetooth_off">❌ Nyalakan Bluetooth dulu!</string>
+    <string name="error_no_permission">❌ Permission Bluetooth tidak diberikan!</string>
+    <string name="error_hc05_not_found">❌ HC-05 tidak ditemukan!\nPastikan sudah di-pair di Settings > Bluetooth</string>
+    <string name="error_permission_denied">❌ Permission ditolak - app tidak bisa jalan</string>
+    <string name="error_connection_failed">❌ Koneksi gagal!\n\nKemungkinan penyebab:\n• HC-05 sudah terkoneksi ke device lain\n• HC-05 terlalu jauh\n• HC-05 tidak dalam mode pairing\n\nSolusi:\n• Restart HC-05 (cabut-colok power)\n• Pastikan LED berkedip (standby)\n• Coba lagi</string>
+
+    <!-- Terminal Messages -->
+    <string name="terminal_welcome">🔷 STM32 Bluetooth Terminal v1.0\n━━━━━━━━━━━━━━━━━━━━━━━━\nWaiting for connection…\n\n</string>
+    <string name="terminal_connecting">━━━━━━━━━━━━━━━━━━━━━━━━\n🔄 Connecting to HC-05…\n📍 Address: %s\n━━━━━━━━━━━━━━━━━━━━━━━━\n</string>
+    <string name="terminal_connected">✅ CONNECTED!\n━━━━━━━━━━━━━━━━━━━━━━━━\n</string>
+    <string name="terminal_connection_failed">❌ Connection failed!\nError: %s\n━━━━━━━━━━━━━━━━━━━━━━━━\n</string>
+    <string name="terminal_disconnected">🔴 Disconnected\n</string>
+    <string name="terminal_sent">📤 SENT: %s\n</string>
+    <string name="terminal_received">📥 %s</string>
+    <string name="terminal_send_failed">❌ Failed to send\n</string>
+    <string name="terminal_connection_lost">❌ Connection lost!\n</string>
+    <string name="terminal_cleared">🗑️ Terminal cleared\n</string>
+
+    <!-- HC-05 Info -->
+    <string name="hc05_pairing_instructions">📝 Cara pair:\n   1. Buka Settings > Bluetooth\n   2. Scan &amp; pair HC-05\n   3. PIN: 1234\n</string>
+
+</resources>
