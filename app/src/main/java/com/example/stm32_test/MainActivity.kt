@@ -412,8 +412,8 @@ class MainActivity : AppCompatActivity() {
 
                 withContext(Dispatchers.Main) {
                     if (isFinishing || isDestroyed) return@withContext
-                    appendToTerminal("📤 SENT: $formatted")
-                    Toast.makeText(this@MainActivity, "📤 Sent: $command", Toast.LENGTH_SHORT).show()
+                    appendToTerminal("SENT: $formatted")
+                    Toast.makeText(this@MainActivity, "Sent: $command", Toast.LENGTH_SHORT).show()
                 }
             } catch (e: IOException) {
                 Log.e(TAG, "❌ Send failed: ${e.message}")

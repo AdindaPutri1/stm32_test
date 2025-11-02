@@ -26,7 +26,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="🔷 STM32 Bluetooth Terminal"
+                android:text="STM32 Bluetooth Terminal"
                 android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
@@ -204,7 +204,7 @@
                     android:id="@+id/tvTerminal"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="🔷 STM32 Bluetooth Terminal v1.0\n━━━━━━━━━━━━━━━━━━━━━━━━\nWaiting for connection...\n\n"
+                    android:text="STM32 Bluetooth Terminal v1.0\n━━━━━━━━━━━━━━━━━━━━━━━━\nWaiting for connection...\n\n"
                     android:textColor="#8B949E"
                     android:textSize="13sp"
                     android:fontFamily="monospace"

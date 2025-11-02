@@ -12,7 +12,7 @@
     <string name="disconnect">🔌 Disconnect</string>
     <string name="led_on">💡 LED ON</string>
     <string name="led_off">🔴 LED OFF</string>
-    <string name="send">📤 SEND</string>
+    <string name="send">SEND</string>
     <string name="clear">🗑️ Clear</string>
 
     <!-- UI Labels -->
@@ -24,7 +24,7 @@
     <string name="toast_connected">✅ Connected to HC-05!</string>
     <string name="toast_disconnected">🔴 Disconnected from STM32</string>
     <string name="toast_connection_lost">❌ Koneksi terputus</string>
-    <string name="toast_sent">📤 Sent: %s</string>
+    <string name="toast_sent">Sent: %s</string>
     <string name="toast_send_failed">❌ Gagal kirim data</string>
     <string name="toast_command_empty">⚠️ Command kosong!</string>
     <string name="toast_permission_granted">✅ Permission granted</string>
@@ -44,8 +44,8 @@
     <string name="terminal_connected">✅ CONNECTED!\n━━━━━━━━━━━━━━━━━━━━━━━━\n</string>
     <string name="terminal_connection_failed">❌ Connection failed!\nError: %s\n━━━━━━━━━━━━━━━━━━━━━━━━\n</string>
     <string name="terminal_disconnected">🔴 Disconnected\n</string>
-    <string name="terminal_sent">📤 SENT: %s\n</string>
-    <string name="terminal_received">📥 %s</string>
+    <string name="terminal_sent">SENT: %s\n</string>
+    <string name="terminal_received">%s</string>
     <string name="terminal_send_failed">❌ Failed to send\n</string>
     <string name="terminal_connection_lost">❌ Connection lost!\n</string>
     <string name="terminal_cleared">🗑️ Terminal cleared\n</string>
